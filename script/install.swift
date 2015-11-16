@@ -240,7 +240,7 @@ extension SnippetManager {
                         return
                     case .Closed:
                         // Process snippet content text
-                        snippetText.append(line)
+                        snippetText.append(line + "\n")
                     case .Searching:
                         return
                     }
@@ -372,7 +372,7 @@ do {
         for snippet in snippetModelsToImport {
             let isExistingSnippet = manager.existingSnippetIdentifiers.contains(snippet.identifier)
             if (manager.addSnippet(snippet)) {
-                (isExistingSnippet) ? print("\u{2705}  UPDATED: \(snippet.identifier)") : print("ADDED: \(snippet.identifier)")
+                (isExistingSnippet) ? print("\u{2705}  UPDATED: \(snippet.identifier)") : print("\u{2705}  ADDED: \(snippet.identifier)")
             } else {
                 print("\u{26A0}  WARNING: Unable to write snippet \(snippet.identifier) to Xcode snippet directory.")
             }
