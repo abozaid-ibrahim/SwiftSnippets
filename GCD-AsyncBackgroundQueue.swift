@@ -4,7 +4,7 @@ title: Asynchronous Background Processing
 summary: Perform work on background queue and return results on main
 platform: All
 completion-scope: Function or Method
-shortcut: async
+shortcut: asyncq
 version: 1
 ---*/
 

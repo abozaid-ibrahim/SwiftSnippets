@@ -8,6 +8,6 @@ shortcut: ilb
 version: 1
 ---*/
 
-if let unwrappedValue = optionalValue {
+if let <#unwrappedValue#> = <#optionalValue#> {
     <#use unwrappedValue#>
 }
