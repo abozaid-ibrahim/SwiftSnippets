@@ -8,7 +8,6 @@ ___
 A collection of useful Swift 2 snippets for various Apple platforms, including a simple installation script to generate and import snippets to Xcode.
 
 ## Installing and Updating Xcode Snippets
-___
 
 The included script will generate and install the required Xcode pLists for `.codesnippet` files. Simply follow the instructions below to begin.
 
@@ -28,13 +27,11 @@ The included script will generate and install the required Xcode pLists for `.co
 The script will notify you of any warnings or errors that occurred during execution and also indicate which snippets have been installed/ updated via their identifiers.
 
 ## Directory Structure
-___
 
 The installation script searches for `.swift` files in its **parent** directory. It ignores hidden files and does not traverse contained directories.
 
 
 ## Contributing Snippets
-___
 
 ###Naming Conventions
 
@@ -72,7 +69,6 @@ ___
 
 ## Accepted Snippet Properties
 
-___
 
 | Key               | Value (Type)                     | Default              |
 | ----------------- | ---------------------------------| -------------------- |
@@ -85,13 +81,11 @@ ___
 | version           | Integer convertible string (`String`)   | 1             |
 
 ## Requirements
-___
 
 - Swift 2.0+
 - Xcode 4.0+
 
 ## License
-___
 
 The MIT License (MIT) Copyright (c) 2015 Elliott French
 
