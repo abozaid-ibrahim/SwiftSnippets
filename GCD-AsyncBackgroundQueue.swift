@@ -3,7 +3,7 @@ id: 33E78882-80F0-461D-85F3-A4853E4315F8
 title: Asynchronous Background Processing
 summary: Perform work on background queue and return results on main
 platform: All
-completion-scope: Function or Method
+completion-scopes: Function or Method
 shortcut: asyncq
 version: 1
 ---*/

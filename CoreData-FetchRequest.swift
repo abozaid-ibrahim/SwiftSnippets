@@ -3,7 +3,7 @@ id: 445AE21D-CC5E-4DA1-B588-E30B59ED94E2
 title: CoreData Fetch Entity
 summary: Boilerplate NSFetchRequest with Predicate and Sort Descriptor
 platform: iOS
-completion-scope: Function or Method
+completion-scopes: Function or Method
 shortcut: cdf
 version: 1
 ---*/

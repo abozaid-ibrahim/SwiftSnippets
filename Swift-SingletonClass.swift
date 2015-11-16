@@ -3,7 +3,7 @@ id: FBA52FDB-D5DB-47D0-916E-4BBA041544A9
 title: Singleton Class Initialiser
 summary: Shared singleton class boilerplate initialiser
 platform: All
-completion-scope: Class Implementation
+completion-scopes: Class Implementation
 shortcut: sci
 version: 1
 ---*/

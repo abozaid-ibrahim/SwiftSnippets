@@ -3,7 +3,7 @@ id: E70E066D-0F92-48D9-92BB-367E738A560F
 title: UITableViewDelegate Extension
 summary: Boilerplate methods for UITableViewDelegate Protocol
 platform: iOS
-completion-scope: Class Implementation
+completion-scopes: Class Implementation
 shortcut: tvdel
 version: 1
 ---*/

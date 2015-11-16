@@ -73,7 +73,7 @@ class Snippet: CustomStringConvertible {
                 }
             }
             self.completionScopes = scopes
-            
+
             // Normalise provided platform
             switch platform.lowercaseString {
             case "ios":
@@ -224,8 +224,8 @@ extension SnippetManager {
                         let key = keyRaw.lowercaseString
                         let value = components[1].stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
                         
-                        // Handle possibility of completion-scope array
-                        if (key == "completion-scope") {
+                        // Handle possibility of completion-scopes array
+                        if (key == "completion-scopes") {
                             let scopeComponents: [String] = value.componentsSeparatedByString(",")
                             var scopes: [String] = []
                             for scopeComponent in scopeComponents {
@@ -312,7 +312,7 @@ extension SnippetManager {
         
         let completionScopes = "<key>IDECodeSnippetCompletionScopes</key>" + newline +
             "<array>" + newline + codeSnippetCompletionScopes + newline + "</array>" + newline
-        
+
         // Escape to XML compliant string
         let escapedContent = escapeSnippetContent(snippet.content)
         

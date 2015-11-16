@@ -3,7 +3,7 @@ id: 41E7C4A8-429D-484F-A1CF-9020BBE85B0B
 title: Switch Block
 summary: Switch boilerplate block
 platform: All
-completion-scope: Function or Method
+completion-scopes: Function or Method
 shortcut: sb
 version: 1
 ---*/

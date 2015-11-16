@@ -3,7 +3,7 @@ id: 011A5AA6-DC81-4025-895A-5E58850D6CBC
 title: Do-Try-Catch Block
 summary: Do-Try-Catch boilerplate block
 platform: All
-completion-scope: Code Expression
+completion-scopes: Code Expression
 shortcut: dtcb
 version: 1
 ---*/

@@ -3,7 +3,7 @@ id: 2FB7B09F-DCF8-4AD2-8C50-D754D084637B
 title: UIImageView Initialiser with UIImage
 summary: UIImageView with UIImage Boilerplate
 platform: iOS
-completion-scope: Code Expression
+completion-scopes: Code Expression
 shortcut: ivwi
 version: 1
 ---*/
