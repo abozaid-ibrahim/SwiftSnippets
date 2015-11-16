@@ -1,10 +1,11 @@
 /*---
 id: E70E066D-0F92-48D9-92BB-367E738A560F
-title: UITableViewDelegate
-summary: Placeholders for required UITableViewDelegate protocol methods
+title: UITableViewDelegate Extension
+summary: Boilerplate methods for UITableViewDelegate Protocol
 platform: iOS
 completion-scope: Class Implementation
 shortcut: tvdel
+version: 1
 ---*/
 
 extension <#Class#> : UITableViewDelegate {

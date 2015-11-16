@@ -78,7 +78,7 @@ class Snippet: CustomStringConvertible {
             switch platform.lowercaseString {
             case "ios":
                 self.platform = "iphoneos"
-            case "os x":
+            case "osx":
                 self.platform = "macosx"
             case "tvos":
                 self.platform = "appletvos"
@@ -220,7 +220,8 @@ extension SnippetManager {
                         }
                         
                         // Remove leading/ trailing whitespace
-                        let key = components[0].stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
+                        let keyRaw = components[0].stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
+                        let key = keyRaw.lowercaseString
                         let value = components[1].stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
                         
                         // Handle possibility of completion-scope array
@@ -253,13 +254,14 @@ extension SnippetManager {
                 }
                 
                 let shortcut = snippetProperties["shortcut"] as? String ?? ""
-                let completionScopes = snippetProperties["completion-scope"] as? [String] ?? ["All"]
+                let completionScopes = snippetProperties["completion-scopes"] as? [String] ?? ["All"]
                 let content = snippetText.joinWithSeparator("")
                 let identifier = snippetProperties["id"] as? String ?? NSUUID().UUIDString
                 let platform = snippetProperties["platform"] as? String ?? "All"
                 let summary = snippetProperties["summary"] as? String ?? ""
                 let title = snippetProperties["title"] as? String ?? ""
-                let version = snippetProperties["version"] as? Int ?? 1
+                let rawVersion = snippetProperties["version"] as? String ?? "1"
+                let version = Int(rawVersion) ?? 1
                 
                 // Construct model
                 let snippet = Snippet(shortcut: shortcut,
@@ -357,7 +359,7 @@ do {
     if let argument = String.fromCString(Process.arguments[1]) {
         var snippetModelsToImport: [Snippet] = []
         switch argument.lowercaseString {
-        case "all":
+        case "-all", "-a":
             // Fetch file paths for snippets to import
             let snippetPaths = try manager.fetchSnippetFilePathsToImport()
             // Read and Model Snippets to Import
