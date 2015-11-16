@@ -1,16 +1,11 @@
 ![Swift Snippets](https://raw.githubusercontent.com/ElliottFrench/PublicAssets/master/SwiftSnippetAssets/Banner.png)
-
 ___
 
 #Swift Snippets
 
-
-[![Language](https://img.shields.io/badge/Language-Swift_2-orange.svg)](https://developer.apple.com/swift) [![Build](https://img.shields.io/badge/Build-Passing-brightgreen.svg)]() [![License](https://img.shields.io/badge/License-MIT-blue.svg)]() [![Platforms](https://img.shields.io/badge/Platforms-iOS | OS X | tvOS | watchOS-lightgrey.svg)](https://developer.apple.com/)
-
+[![Language](https://img.shields.io/badge/Language-Swift_2-orange.svg)](https://developer.apple.com/swift) ![Build](https://img.shields.io/badge/Build-Passing-brightgreen.svg) ![License](https://img.shields.io/badge/License-MIT-blue.svg) [![Platforms](https://img.shields.io/badge/Platforms-iOS | OS X | tvOS | watchOS-lightgrey.svg)](https://developer.apple.com/)
 
 A collection of useful Swift 2 snippets for various Apple platforms, including a simple installation script to generate and import snippets to Xcode.
-
-
 
 ## Installing and Updating Xcode Snippets
 ___
