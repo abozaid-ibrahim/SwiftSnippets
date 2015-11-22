@@ -1,25 +1,21 @@
 /*---
-id: D819481B-536C-4257-B3D7-5874A5B49685
-title: UITableViewDataSource Extension
+id: 80A957BC-5CF6-4D91-8832-F124C7197F99
+title: UITableViewDataSource Methods
 summary: Boilerplate methods for UITableViewDataSource Protocol
 platform: iOS
-completion-scopes: Class Implementation
-shortcut: tvds
+completion-scopes: Function or Method
+shortcut: uitvds
 version: 1
 ---*/
 
-extension <#Class#> : UITableViewDataSource {
-    
-    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        <#code#>
-    }
-    
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
-    }
-    
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        <#code#>
-    }
-    
+func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    <#code#>
+}
+
+func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    <#code#>
+}
+
+func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    <#code#>
 }

@@ -4,7 +4,7 @@ title: NSFileManager Documents Directory URL
 summary: NSFileManager method to retrieve document directory
 platform: All
 completion-scopes: Function or Method
-shortcut: fmdd
+shortcut: nsfmdd
 version: 1
 ---*/
 

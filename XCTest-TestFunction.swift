@@ -4,7 +4,7 @@ title: XCTest Test Function
 summary: Basic test function
 platform: All
 completion-scopes: Function or Method
-shortcut: xtf
+shortcut: xctf
 version: 1
 ---*/
 

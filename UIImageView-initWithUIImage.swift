@@ -4,7 +4,7 @@ title: UIImageView Initialiser with UIImage
 summary: UIImageView with UIImage Boilerplate
 platform: iOS
 completion-scopes: Code Expression
-shortcut: ivwi
+shortcut: uiivwi
 version: 1
 ---*/
 

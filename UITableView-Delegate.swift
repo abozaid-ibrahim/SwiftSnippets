@@ -1,17 +1,13 @@
 /*---
-id: E70E066D-0F92-48D9-92BB-367E738A560F
-title: UITableViewDelegate Extension
+id: 10735641-9B28-4AB4-ABAA-4F5D081A86DF
+title: UITableViewDelegate
 summary: Boilerplate methods for UITableViewDelegate Protocol
 platform: iOS
-completion-scopes: Class Implementation
-shortcut: tvdel
+completion-scopes: Function or Method
+shortcut: uitvd
 version: 1
 ---*/
 
-extension <#Class#> : UITableViewDelegate {
-    
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        <#code#>
-    }
-    
+func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    <#code#>
 }

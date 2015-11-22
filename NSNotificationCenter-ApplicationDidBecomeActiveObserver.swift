@@ -4,7 +4,7 @@ title: UIApplicationDidBecomeActiveNotification Observer
 summary: Add notification center observer for UIApplicationDidBecomeActiveNotification
 platform: All
 completion-scopes: Code Expression
-shortcut: oadba
+shortcut: nsncoadba
 version: 1
 ---*/
 

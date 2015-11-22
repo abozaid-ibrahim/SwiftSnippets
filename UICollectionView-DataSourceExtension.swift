@@ -4,7 +4,7 @@ title: UICollectionViewDataSource Extension
 summary: Boilerplate methods for UICollectionViewDataSource Protocol
 platform: iOS
 completion-scopes: Class Implementation
-shortcut: cvds
+shortcut: uicvdse
 version: 1
 ---*/
 
