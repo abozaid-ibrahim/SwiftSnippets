@@ -3,7 +3,7 @@ id: 5F982B15-E54A-4863-8A7B-4611D62E1BAD
 title: UICollectionViewDataSource Extension
 summary: Boilerplate methods for UICollectionViewDataSource Protocol
 platform: iOS
-completion-scopes: Class Implementation
+completion-scopes: Top Level
 shortcut: uicvdse
 version: 1
 ---*/

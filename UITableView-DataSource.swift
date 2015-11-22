@@ -3,7 +3,7 @@ id: 80A957BC-5CF6-4D91-8832-F124C7197F99
 title: UITableViewDataSource Methods
 summary: Boilerplate methods for UITableViewDataSource Protocol
 platform: iOS
-completion-scopes: Function or Method
+completion-scopes: Class Implementation
 shortcut: uitvds
 version: 1
 ---*/
