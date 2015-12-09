@@ -1,4 +1,4 @@
-![Swift Snippets](https://raw.githubusercontent.com/ElliottFrench/PublicAssets/master/SwiftSnippetAssets/Banner.png)
+![Swift Snippets](assets/Banner.png)
 ___
 
 #Swift Snippets
